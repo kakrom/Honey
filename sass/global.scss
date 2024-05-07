@@ -1,0 +1,397 @@
+@font-face {
+    font-family: Kodchasan;
+    src: url(../fonts/Kodchasan-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.head {
+    width: 1323px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-wrapper {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    &-list {
+        display: flex;
+        gap: 40px;
+
+        &-item {
+            a {
+                font-weight: 500;
+                font-size: 18px;
+                font-family: Kodchasan;
+                color: #000;
+                transition: .3s;
+
+                &:hover {
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+    }
+}
+
+.sec1-wr {
+    position: relative;
+
+    &-pos1 {
+        position: absolute;
+        left: 154px;
+        top: 16.44px;
+        z-index: 1;
+    }
+
+    &-wrapper {
+        padding-top: 182px;
+        padding-left: 177px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+        height: 865px;
+        border-radius: 30px;
+        position: relative;
+        z-index: 0;
+
+    }
+
+    &-bac {
+        position: absolute;
+        top: 89px;
+        left: 78px;
+        width: 1408.7px;
+        height: 611px;
+        background-image: url(../images/Group\ 57.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -1;
+    }
+
+    .sec1 {
+        width: 1323px;
+
+        &-p1 {
+            font-size: 100px;
+            font-weight: 700;
+            font-family: Kodchasan;
+            z-index: 1;
+
+            &:nth-child(2) {
+                margin: 10px 0 10px 98px;
+            }
+        }
+
+        &-bot {
+            display: flex;
+            align-items: center;
+            width: 658px;
+
+            &-img {
+                width: 296px;
+                position: relative;
+
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 294px;
+                    border-bottom: 1px solid #000;
+                }
+            }
+        }
+
+        &-btns {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 70px;
+
+            &-btn {
+                width: 180px;
+                height: 65px;
+                border: 2px solid #000;
+                font-size: 18px;
+                font-family: Kodchasan;
+                font-weight: 700;
+                color: #000;
+                background-color: transparent;
+                transition: .3s;
+
+                &:hover {
+                    border: 2px solid transparent;
+                    background-color: #000;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+
+            }
+        }
+    }
+
+}
+
+.sec2 {
+    margin-top: 70px;
+
+    &-wrapper {
+        padding-left: 177px;
+    }
+
+    &-title {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: Kodchasan;
+        margin: 50px 0;
+    }
+
+    &-shops {
+        display: flex;
+        align-items: center;
+        gap: 102px;
+    }
+}
+
+.sec3 {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-right {
+        width: 548px;
+
+        &-title {
+            font-size: 45px;
+            font-weight: 700px;
+            font-family: Kodchasan;
+        }
+
+        &-about {
+            font-family: Kodchasan;
+            font-size: 22px;
+            font-weight: 600;
+            margin: 30px 0 50px 0;
+        }
+
+        &-btn {
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: Kodchasan;
+            background-color: transparent;
+            border: 2px solid #E58311;
+            color: #E58311;
+            transition: .3s;
+
+            &:hover {
+                background-color: #E58311;
+                border: 2px solid #E58311;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.sec4 {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+
+    &-wrapper {
+        justify-content: center;
+    }
+
+    &-left {
+        width: 548px;
+
+        &-title {
+            font-family: Kodchasan;
+            font-weight: 700;
+            font-size: 45px;
+            color: #000;
+        }
+
+        &-about {
+            font-family: Kodchasan;
+            font-weight: 600;
+            font-size: 22px;
+            margin: 30px 0 50px 0;
+        }
+
+        &-btn {
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: Kodchasan;
+            background-color: transparent;
+            border: 2px solid #E58311;
+            color: #E58311;
+            transition: .3s;
+
+            &:hover {
+                background-color: #E58311;
+                border: 2px solid #E58311;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.sec5 {
+    width: 1146px;
+
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-title {
+        display: flex;
+        justify-content: space-between;
+        height: 122px;
+
+        &-h1 {
+            font-size: 45px;
+            font-family: Kodchasan;
+            font-weight: 700;
+            color: #000;
+
+        }
+
+        &-right {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            a {
+                color: #E58211;
+                font-family: Kodchasan;
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-box {
+            display: flex;
+            justify-content: space-between;
+            width: 558px;
+            height: 305px;
+            background-color: #e5821117;
+            padding: 45px 0 0 30px;
+
+            &:nth-child(2) {
+                padding-right: 40px;
+            }
+
+            &-about {
+                width: 302px;
+                height: 216px;
+
+                h1 {
+                    font-size: 28px;
+                    font-family: Kodchasan;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-family: Kodchasan;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin: 20px 0 30px 0;
+                }
+
+                button {
+                    background-color: transparent;
+                    border: 2px solid #E58211;
+                    color: #E58211;
+                    padding: 10px 30px;
+                    font-size: 18px;
+                    font-family: Kodchasan;
+                    font-weight: 700;
+                    transition: .3s;
+
+                    &:hover {
+                        background-color: #E58211;
+                        color: #fff;
+                        border: 2px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.foot {
+    width: 1144px;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-wr {
+        display: flex;
+        justify-content: center;
+    }
+    &-wrapper {
+        margin-top: 130px;
+        background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    }
+
+    p {
+        width: 269px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Kodchasan;
+        color: #000;
+    }
+
+    &-store {
+        display: flex;
+        gap: 20px;
+    }
+}
